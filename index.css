@@ -3,6 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.text-test {
-    text-align: center;
+.h-maximum {
+    height : 100vh;
 }
