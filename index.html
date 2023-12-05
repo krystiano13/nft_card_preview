@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>NFT Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
     <main class="w-full h-maximum bg-veryDarkBlue-100 flex justify-center items-center" >
-        <div class="w-103 h-103 bg-veryDarkBlue-50 flex justify-center items-center rounded-3xl" id="wrapper">
-            <div class="w-102 h-102 bg-veryDarkBlue-200 rounded-3xl p-5 flex flex-col justify-evenly" id="content">
+        <div class="w-103 max-[500px]:w-[95vw] h-103 max-[500px]:h-[650px] bg-veryDarkBlue-50 flex justify-center items-center rounded-3xl" id="wrapper">
+            <div class="w-102 max-[500px]:w-[93vw] max-[500px]:h-[640px] bg-veryDarkBlue-200 rounded-3xl p-5 flex flex-col justify-evenly" id="content">
                 <img class="rounded-3xl w-full h-auto" src="./images/image-equilibrium.jpg" alt="equilibrium logo" />
                 <h1 class="font-outfit font-semibold text-white text-xl m-5 ml-0">Equilibrium #3429</h1>
-                <p class="font-outfit font-light text-softBlue m-5 ml-0 mt-0">Our Equilibrium collection promotes balance and calm.</p>
+                <p class="font-outfit font-light text-softBlue m-5 ml-0 mt-0 text-lg">Our Equilibrium collection promotes balance and calm.</p>
                 <section class="flex justify-between items-center">
                     <div class="flex items-center">
                         <img src="./images/icon-ethereum.svg" alt="eth logo"/>
-                        <span>0.041 ETH</span>
+                        <span class="font-outfit text-cyan ml-2 font-semibold">0.041 ETH</span>
                     </div>
                     <div class="flex items-center">
-                        <img src="./images/icon-clock.svg" alt="clock icon" />
-                        <span>3 days left</span>
+                        <img class="mr-2" src="./images/icon-clock.svg" alt="clock icon" />
+                        <span class="font-outfit text-softBlue">3 days left</span>
                     </div>
                 </section>
                 <div class="mt-4 mb-4" id="separator"></div>
